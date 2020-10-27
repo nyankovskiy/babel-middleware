@@ -4,7 +4,7 @@ var fs = require('fs'),
     request = require('supertest'),
     expect = require('chai').expect,
     express = require('express'),
-    babel = require('babel-core'),
+    babel = require('@babel/core'),
     babelMiddleware = require('../index');
 
 function transformFile(file) {

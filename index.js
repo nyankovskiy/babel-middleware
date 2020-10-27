@@ -1,5 +1,5 @@
 
-var babel = require('babel-core');
+var babel = require('@babel/core');
 var Cache = require('./lib/cache');
 var crypto = require('crypto');
 var fs = require('fs');
